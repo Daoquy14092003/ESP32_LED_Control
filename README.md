@@ -4,7 +4,7 @@ By Đào Ngọc Quý
 # Mục đích : 
 - Làm quen với PlatformIO
 - Làm quen với Git, Github
-- 
+  
 ## Phần cứng 
 Trong dự án này, tôi sử dụng board phát triển ESP32 Devkit v1:
     - Con chip ESP32 kiến trúc xtensa, lõi kép
