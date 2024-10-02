@@ -7,15 +7,24 @@ By Đào Ngọc Quý
   
 # Phần cứng 
 Trong dự án này, tôi sử dụng board phát triển ESP32 Devkit v1:
+<<<<<<< HEAD
     - Mắc thêm một LED thứ hai vào bảng mạch phát triển (dùng test board) qua một chân GPIO nào đó
     - Mắc một nút bấm khác vào chân GPIO nào đó
+=======
+  - Mắc thêm một LED thứ hai vào bảng mạch phát triển (dùng test board) qua một chân GPIO nào đó
+  - Mắc một nút bấm khác vào chân GPIO nào đó
+>>>>>>> 6d002fbabe133c7d751c80d64275946f7f7afa72
 
 # Yêu cầu chức năng 
 Chương trình có chức năng sau:
   - Chỉ sử dụng nút bấm trên để thực hiện chức năng điều khiển hai LED (một cái là built-in trên devboard)
   - Khi double click sẽ chuyển chế độ điều khiển giữa hai LED (LED1 và LED2)
   - Khi single click sẽ bật tắt cái LED đang được điều khiển (LED1 hoặc 2, đã chọn ở bước 1)
+<<<<<<< HEAD
   - Khi giữ nút nhấn sẽ làm cái LED đang được điều khiển nhấp nháy 200ms một lần
+=======
+  - Khi giữ nút nhấn sẽ làm cái LED đang được điều khiển nháy 200ms một lần
+>>>>>>> 6d002fbabe133c7d751c80d64275946f7f7afa72
 
 # Các công cụ trong `workspace` này
 - Sử dụng thư viện OneButton (open source lib) để đạt chức năng tương tự. Xem chi tiết hướng dẫn trong `OneButton_Lib_Demo/README.md`

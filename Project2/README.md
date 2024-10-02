@@ -1,4 +1,4 @@
-# Platform IO: ESP32 LED Control with Button and Double Click Feature
+# Platform IO: ESP32 LED Control with Button and Double Click Feature (Project2)
 By Đào Ngọc Quý
 
 # Mục đích : 
