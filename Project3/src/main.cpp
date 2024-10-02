@@ -13,11 +13,11 @@ LED led2(LED2_PIN, HIGH);
 OneButton buttonBuiltIn(BTN_PIN_BUILTIN, LOW);  
 OneButton buttonSecond(BTN_PIN_SECOND, LOW);
 
-bool controllingLED1 = true; // Biến để theo dõi LED nào đang được điều khiển
+bool ActiveControlLED1 = true; // Biến để theo dõi LED nào đang được điều khiển
 
 // single click
 void btnSecondClick() {
-    if (controllingLED1) {
+    if (ActiveControlLED1) {
         led1.flip(); 
     } else {
         led2.flip(); 
@@ -26,12 +26,12 @@ void btnSecondClick() {
 
 // double click 
 void btnSecondDoubleClick() {
-    controllingLED1 = !controllingLED1; 
+    ActiveControlLED1 = !ActiveControlLED1; 
 }
 
 // long press
 void btnSecondHold() {
-    if (controllingLED1) {
+    if (ActiveControlLED1) {
         led1.blink(200); 
     } else {
         led2.blink(200);
