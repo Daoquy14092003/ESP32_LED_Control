@@ -7,8 +7,8 @@ By Đào Ngọc Quý
   
 # Phần cứng 
 Trong dự án này, tôi sử dụng board phát triển ESP32 Devkit v1:
-    - Mắc thêm một LED thứ hai vào bảng mạch phát triển (dùng test board) qua một chân GPIO nào đó
-    - Mắc một nút bấm khác vào chân GPIO nào đó
+  - Mắc thêm một LED thứ hai vào bảng mạch phát triển (dùng test board) qua một chân GPIO nào đó
+  - Mắc một nút bấm khác vào chân GPIO nào đó
 
 # Yêu cầu chức năng 
 Chương trình có chức năng sau:
